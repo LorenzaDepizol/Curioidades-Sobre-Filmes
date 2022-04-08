@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cabin+Sketch&family=Mate+SC&family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>          
+        <form method="POST" name="form" action="../controllers/userController.php"> 
+            <h1>Create Account</h1>
+            <label for="name">
+                <span>Name</span>
+                <input type="text" id="fname" name = "nome">
+				<input type="hidden" value = "1"  name = "action">
+            </label>
+
+            <label for="email">
+                <span>E-mail</span>
+                <input type="text" name = "email" id="email" autocomplete = "off">
+            </label>
+
+            <label for="password">
+                <span>Password</span>
+                <input type="password" name = "senha" id="senha" autocomplete = "off">
+            </label>
+            <input type="submit" value="Sign Up" id="button">
+        </form>
+    </main>
+    <section class="images">
+        <img src="mobile.svg" alt="Mobile">
+        <div class="circle"></div>
+    </section>
+    <!-- onclick="alert('Enviado')" -->
+</body>
+</html>

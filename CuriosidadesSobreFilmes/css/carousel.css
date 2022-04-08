@@ -1,0 +1,558 @@
+body { 
+  background-color:#26272b;
+}
+h2 { 
+  margin:10px auto;
+  color: #19B3D3;
+}
+.container { 
+  margin:10px auto;
+}
+
+  /*AÇÃO*/ 
+
+  #recent {
+    position: relative;
+    left: 15%;
+    margin-top: 100px;
+  }
+  #recent .MS-content {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 5%;
+  }
+  #recent .MS-content .item {
+    display: inline-block;
+    width: 33.3333%;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    height: 100%;
+    white-space: normal;
+    padding: 0 40px;
+  }
+  @media (max-width: 991px) {
+    #recent .MS-content .item {
+      width: 50%;
+    }
+  }
+  @media (max-width: 767px) {
+    #recent .MS-content .item {
+      width: 100%;
+    }
+  }
+  #recent .MS-content .item .imgTitle {
+    position: relative;
+  }
+  #recent .MS-content .item .imgTitle img {
+    height: auto;
+    width: 100%;
+  }
+  #recent .MS-content .item a {
+    float: right;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: wheat;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    transition: linear 0.1s;
+  }
+  #recent .MS-content .item a:hover {
+    text-shadow: 0 0 1px wheat;
+  }
+  #recent .MS-controls button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    font-size: 50px;
+    top: 200px;
+    transition: 0.15s linear;
+    color: white;
+    z-index: 100;
+    cursor: pointer;
+  }
+  #recent .MS-controls button:hover {
+    color: wheat;
+  }
+  @media (max-width: 992px) {
+    #recent .MS-controls button {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    #recent .MS-controls button {
+      font-size: 20px;
+    }
+  }
+  #recent .MS-controls .MS-left {
+    left: 0px;
+  }
+  @media (max-width: 767px) {
+    #recent .MS-controls .MS-left {
+      left: -10px;
+    }
+  }
+  #recent .MS-controls .MS-right {
+    right: 0px;
+  }
+  @media (max-width: 767px) {
+    #recent .MS-controls .MS-right {
+      right: -10px;
+    }
+  }
+
+
+#acao {
+  position: relative;
+  left: 15%;
+}
+#acao .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#acao .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 40px;
+}
+@media (max-width: 991px) {
+  #acao .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #acao .MS-content .item {
+    width: 100%;
+  }
+}
+#acao .MS-content .item .imgTitle {
+  position: relative;
+}
+#acao .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#acao .MS-content .item a {
+  float: right;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  color: #19B3D3;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#acao .MS-content .item a:hover {
+  text-shadow: 0 0 1px #19B3D3;
+}
+#acao .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 200px;
+  transition: 0.15s linear;
+  color: white;
+  z-index: 100;
+  cursor: pointer;
+}
+#acao .MS-controls button:hover {
+  color: #19B3D3;
+}
+@media (max-width: 992px) {
+  #acao .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #acao .MS-controls button {
+    font-size: 20px;
+  }
+}
+#acao .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #acao .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#acao .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #acao .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+                                                  /*COMÉDIA*/ 
+
+#comedia {
+  position: relative;
+  left: 15%;
+}
+#comedia .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#comedia .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 40px;
+}
+@media (max-width: 991px) {
+  #comedia .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #comedia .MS-content .item {
+    width: 100%;
+  }
+}
+#comedia .MS-content .item .imgTitle {
+  position: relative;
+}
+#comedia .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#comedia .MS-content .item a {
+  float: right;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  color: #19B3D3;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#comedia .MS-content .item a:hover {
+  text-shadow: 0 0 1px hsl(22, 87%, 48%);
+}
+#comedia .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 200px;
+  transition: 0.15s linear;
+  color: white;
+  cursor: pointer;
+}
+#comedia .MS-controls button:hover {
+  color: hsl(22, 87%, 48%);
+}
+@media (max-width: 992px) {
+  #comedia .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #comedia .MS-controls button {
+    font-size: 20px;
+  }
+}
+#comedia .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #comedia .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#comedia .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #comedia .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+                                                      /*FICÇÃO*/ 
+#ficcao {
+position: relative;
+left: 15%;
+}
+#ficcao .MS-content {
+white-space: nowrap;
+overflow: hidden;
+margin: 0 5%;
+}
+#ficcao .MS-content .item {
+display: inline-block;
+width: 33.3333%;
+position: relative;
+vertical-align: top;
+overflow: hidden;
+height: 100%;
+white-space: normal;
+padding: 0 40px;
+}
+@media (max-width: 991px) {
+#ficcao .MS-content .item {
+  width: 50%;
+}
+}
+@media (max-width: 767px) {
+#ficcao .MS-content .item {
+  width: 100%;
+}
+}
+#ficcao .MS-content .item .imgTitle {
+position: relative;
+}
+#ficcao .MS-content .item .imgTitle img {
+height: auto;
+width: 100%;
+}
+#ficcao .MS-content .item a {
+float: right;
+font-size: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+color: #19B3D3;
+font-weight:lighter;
+letter-spacing: 1px;
+transition: linear 0.1s;
+}
+#ficcao .MS-content .item a:hover {
+text-shadow: 0 0 1px #512da8;
+}
+#ficcao .MS-controls button {
+position: absolute;
+border: none;
+background-color: transparent;
+outline: 0;
+font-size: 50px;
+top: 200px;
+transition: 0.15s linear;
+color: white;
+cursor: pointer;
+}
+#ficcao .MS-controls button:hover {
+color: #512da8;
+}
+@media (max-width: 992px) {
+#ficcao .MS-controls button {
+  font-size: 30px;
+}
+}
+@media (max-width: 767px) {
+#ficcao .MS-controls button {
+  font-size: 20px;
+}
+}
+#ficcao .MS-controls .MS-left {
+left: 0px;
+}
+@media (max-width: 767px) {
+#ficcao .MS-controls .MS-left {
+  left: -10px;
+}
+}
+#ficcao .MS-controls .MS-right {
+right: 0px;
+}
+@media (max-width: 767px) {
+#ficcao .MS-controls .MS-right {
+  right: -10px;
+}
+}
+
+                                                  /*ROMANCE*/
+#romance {
+position: relative;
+left: 15%;
+}
+#romance .MS-content {
+white-space: nowrap;
+overflow: hidden;
+margin: 0 5%;
+}
+#romance .MS-content .item {
+display: inline-block;
+width: 33.3333%;
+position: relative;
+vertical-align: top;
+overflow: hidden;
+height: 100%;
+white-space: normal;
+padding: 0 40px;
+}
+@media (max-width: 991px) {
+#romance .MS-content .item {
+  width: 50%;
+}
+}
+@media (max-width: 767px) {
+#romance .MS-content .item {
+  width: 100%;
+}
+}
+#romance .MS-content .item .imgTitle {
+position: relative;
+}
+#romance .MS-content .item .imgTitle img {
+height: auto;
+width: 100%;
+}
+#romance .MS-content .item a {
+float: right;
+font-size: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+color: #19B3D3;
+font-weight:lighter;
+letter-spacing: 1px;
+transition: linear 0.1s;
+}
+#romance .MS-content .item a:hover {
+text-shadow: 0 0 1px #ff4081;
+}
+#romance .MS-controls button {
+position: absolute;
+border: none;
+background-color: transparent;
+outline: 0;
+font-size: 50px;
+top: 200px;
+transition: 0.15s linear;
+color: white;
+cursor: pointer;
+}
+#romance .MS-controls button:hover {
+color: #ff4081;
+}
+@media (max-width: 992px) {
+#romance .MS-controls button {
+  font-size: 30px;
+}
+}
+@media (max-width: 767px) {
+#romance .MS-controls button {
+  font-size: 20px;
+}
+}
+#romance .MS-controls .MS-left {
+left: 0px;
+}
+@media (max-width: 767px) {
+#romance .MS-controls .MS-left {
+  left: -10px;
+}
+}
+#romance .MS-controls .MS-right {
+right: 0px;
+}
+@media (max-width: 767px) {
+#romance .MS-controls .MS-right {
+  right: -10px;
+  }
+}
+                                                    /*TERROR*/                                                    
+#terror {
+  position: relative;
+  left: 15%;
+}
+#terror .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#terror .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 40px;
+}
+@media (max-width: 991px) {
+  #terror .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #terror .MS-content .item {
+    width: 100%;
+  }
+}
+#terror .MS-content .item .imgTitle {
+  position: relative;
+}
+#terror .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#terror .MS-content .item a {
+  float: right;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  color: #19B3D3;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#terror .MS-content .item a:hover {
+  text-shadow: 0 0 1px #e53935;
+}
+#terror .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 200px;
+  transition: 0.15s linear;
+  color: white;
+  cursor: pointer;
+}
+#terror .MS-controls button:hover {
+  color: #e53935;
+}
+@media (max-width: 992px) {
+  #terror .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #terror .MS-controls button {
+    font-size: 20px;
+  }
+}
+#terror .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #terror .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#terror .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #terror .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+
+
+

@@ -1,0 +1,31 @@
+body{   
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    font-weight: 200;
+}
+h1{
+    margin: 0;    
+    font-size: 58px;   
+    font-family: 'Cabin Sketch', cursive;
+    background-color: #512da8;
+    color: white;
+    text-shadow: 2px 2px 8px #000; 
+}
+
+
+
+a strong{
+    font-size: 16px;  
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Pangolin', cursive;
+    margin-left: 25px;
+  
+}  
+
+
+.card-content{
+    background-color: #2f323a;    
+    height: 75px;
+   
+  }
